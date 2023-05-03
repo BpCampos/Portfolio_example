@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  color: var(--text-color);
+  margin-top: 50px;
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container section {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  border: 1px solid var(--border-color);
+}
+
+.container section h1 {
+  text-align: center;
+}
+
+.container section ul {
+  list-style: none;
+  text-align: start;
+  padding: 0;
+  width: 100%;
+  margin-left: 40px;
+  line-height: 30px;
+  font-size: 1.3rem;
+}

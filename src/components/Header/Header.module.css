@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header div {
+  width: 200px;
+  text-align: center;
+  transition: 300ms;
+  height: 100%;
+}
+
+.header div:hover {
+  box-shadow: rgba(42, 167, 4, 0.55) 0px -50px 36px -28px inset;
+}
+
+.header div a {
+  text-decoration: none;
+}
+
+.header div p {
+  color: var(--text-color);
+  font-size: 1.7rem;
+  transition: 300ms;
+}
+
+.header div p:hover {
+  cursor: pointer;
+  color: var(--hover-text-color);
+}

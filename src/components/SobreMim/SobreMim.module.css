@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 400px;
+  position: relative;
+  box-shadow: 7px 7px 30px rgb(11, 177, 11);
+}
+
+.container img {
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  top: -110px;
+  left: -120px;
+}
+
+.container p {
+  color: var(--text-color);
+  font-size: 1.7rem;
+  border: 1px solid var(--border-color);
+  padding: 50px;
+  margin: 0;
+}
+
+.container div {
+  border: 1px solid var(--border-color);
+  border-left: none;
+}
+
+.container ul {
+  padding: 0;
+  margin: 0;
+}
+
+.container li {
+  color: var(--text-color);
+  list-style: none;
+  font-size: 1.3rem;
+  width: 200px;
+}
