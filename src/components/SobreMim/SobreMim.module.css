@@ -1,32 +1,55 @@
 .container {
-  display: flex;
   width: 60%;
   margin: 0 auto;
   margin-top: 400px;
-  position: relative;
-  box-shadow: 7px 7px 30px rgb(11, 177, 11);
 }
 
-.container img {
+.identidade {
+  display: flex;
+  width: 100%;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.identidade p {
+  margin: 5px 0;
+}
+
+.identidade::before {
+  content: "";
+  width: 190px;
+  height: 190px;
+  border: 1px solid var(--border-color);
+  position: absolute;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  background-color: rgb(6, 146, 6);
+}
+
+.identidade img {
+  margin-right: 20px;
+  z-index: 1;
+  margin-bottom: 7px;
   border-radius: 50%;
   width: 190px;
   height: 190px;
-  position: absolute;
-  top: -110px;
-  left: -120px;
 }
 
-.container p {
+.identidade div p:nth-child(1) {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+}
+
+.aboutMe {
   color: var(--text-color);
   font-size: 1.7rem;
   border: 1px solid var(--border-color);
   padding: 50px;
   margin: 0;
-}
-
-.container div {
-  border: 1px solid var(--border-color);
-  border-left: none;
+  box-shadow: 7px 7px 30px rgb(11, 177, 11);
 }
 
 .container ul {
@@ -43,22 +66,46 @@
 
 @media (max-width: 400px) {
   .container {
-    display: flex;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 200px;
+  }
+
+  .identidade {
+    display: flex;
+    width: 100%;
+    border: none;
+    color: var(--text-color);
+    font-size: 0.7rem;
     position: relative;
-    box-shadow: 7px 7px 30px rgb(11, 177, 11);
   }
 
-  .container img {
-    width: 75px;
-    height: 75px;
-    top: -50px;
-    left: -40px;
+  .identidade::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--border-color);
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+    background-color: rgb(6, 146, 6);
   }
 
-  .container p {
+  .identidade img {
+    margin-right: 20px;
+    z-index: 1;
+    margin-bottom: 7px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .identidade div p:nth-child(1) {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+
+  .aboutMe {
     font-size: 0.7rem;
     padding: 20px;
   }
