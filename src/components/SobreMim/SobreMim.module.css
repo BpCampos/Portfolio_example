@@ -66,7 +66,7 @@
 
 @media (max-width: 400px) {
   .container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     margin-top: 200px;
   }
@@ -93,7 +93,7 @@
   }
 
   .identidade img {
-    margin-right: 20px;
+    margin-right: 10px;
     z-index: 1;
     margin-bottom: 7px;
     width: 80px;
@@ -102,11 +102,12 @@
 
   .identidade div p:nth-child(1) {
     margin-bottom: 15px;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .aboutMe {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding: 20px;
+    box-shadow: 5px 5px 17px rgb(11, 177, 11);
   }
 }
