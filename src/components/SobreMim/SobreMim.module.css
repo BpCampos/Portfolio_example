@@ -42,6 +42,15 @@
 }
 
 @media (max-width: 400px) {
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+    box-shadow: 7px 7px 30px rgb(11, 177, 11);
+  }
+
   .container img {
     width: 75px;
     height: 75px;
@@ -52,14 +61,5 @@
   .container p {
     font-size: 0.7rem;
     padding: 20px;
-  }
-
-  .container {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 400px;
-    position: relative;
-    box-shadow: 7px 7px 30px rgb(11, 177, 11);
   }
 }
