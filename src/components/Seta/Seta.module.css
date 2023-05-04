@@ -1,0 +1,16 @@
+.arrow {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 100%;
+  max-width: 60px;
+  transition: 1s;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

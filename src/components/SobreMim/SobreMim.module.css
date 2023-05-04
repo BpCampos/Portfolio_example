@@ -40,3 +40,26 @@
   font-size: 1.3rem;
   width: 200px;
 }
+
+@media (max-width: 400px) {
+  .container img {
+    width: 75px;
+    height: 75px;
+    top: -50px;
+    left: -40px;
+  }
+
+  .container p {
+    font-size: 0.7rem;
+    padding: 20px;
+  }
+
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 400px;
+    position: relative;
+    box-shadow: 7px 7px 30px rgb(11, 177, 11);
+  }
+}

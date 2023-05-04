@@ -16,7 +16,6 @@ body {
   font-family: "Roboto Mono", monospace;
   margin: 0 auto;
   padding: 0;
-  max-width: 3000px;
 }
 
 ::-webkit-scrollbar {

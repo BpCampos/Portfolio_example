@@ -19,9 +19,10 @@ h1 {
   align-items: center;
   width: 35%;
   border: 1px solid var(--border-color);
+  border-radius: 10px;
 }
 
-.container section h1 {
+.container section h2 {
   text-align: center;
 }
 
@@ -33,4 +34,23 @@ h1 {
   margin-left: 40px;
   line-height: 30px;
   font-size: 1.3rem;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+
+  .container section h2 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .container section ul {
+    width: 100%;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
 }

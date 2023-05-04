@@ -3,7 +3,7 @@ import styles from "./Projeto.module.css";
 import { Typewriter } from "react-simple-typewriter";
 
 export default function Projeto({ info }) {
-  const text = <Typewriter words={info.descricao} typeSpeed={35} />;
+  const text = <Typewriter words={info.descricao} typeSpeed={25} />;
 
   return (
     <>
