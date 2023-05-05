@@ -37,7 +37,7 @@
     "nome": "organo",
     "image": "../../images/screenshot/organo-six-psi.vercel.app_.png",
     "descricao": [
-      "This project was developed with the main reason of learning the basics of React like function components, states, props, hooks, events and propTypes. the project itself is a system that creates cards base on what information you provid in the form and exhibit it in the page sorted by the teams chose in the the beggining"
+      "This project was developed with the main reason of learning the basics of React like function components, states, props, hooks, events and propTypes. The project itself is a system that creates cards base on what information you provid in the form and exhibit it in the page sorted by the teams chose in the the beggining"
     ],
     "tecnologias": ["React", "Javascript", "HTML", "CSS"],
     "github": "https://github.com/BpCampos/Organo",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "nome": "aluraplay-requisicoes-main",
+    "nome": "aluraplay-requisicoes",
     "image": "../../images/screenshot/aluraplay-requisicoes-main-lovat.vercel.app_.png",
     "descricao": [
       "Webpage made to acces videos fetched from an API e also an area to upload your own video .This project was made with the goal of learn how to fetch information from an API and also send information through the POST method"
