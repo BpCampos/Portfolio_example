@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "nome": "cinetag",
+    "nome": "Cinetag",
     "image": "../../images/screenshot/cinetag-khaki.vercel.app_.png",
     "descricao": [
       "This project is a video player, where you can chose a video, that is coming from an API inside a fake server, from the main page to watch and with a feature to add videos to a favorite list. My goal with the project was to learn how to better use React Router to navigate between different pages and to get a better understanding on the useEffect hook with using it with an API to get all the videos to the main page"
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "nome": "profile",
+    "nome": "Profile",
     "image": "../../images/screenshot/profile-gilt-nu.vercel.app_.png",
     "descricao": [
       "This project recreate a blog website wit informations about me and different posts to navigate within and was developed with the main goal of learn how to use React Router and understand how to manage the application paths"
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "nome": "alura-space",
+    "nome": "Alura-space",
     "image": "../../images/screenshot/alura-space-ten-sable.vercel.app_.png",
     "descricao": [
       "The main goal of this project create a React application using Sass as CSS, learn how to filter through different photo tags, showing the corresponding images,screenshot/ work with image imports thorugh json using the public folder and learn how to set a absolute import"
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "nome": "organo",
+    "nome": "Organo",
     "image": "../../images/screenshot/organo-six-psi.vercel.app_.png",
     "descricao": [
       "This project was developed with the main reason of learning the basics of React like function components, states, props, hooks, events and propTypes. The project itself is a system that creates cards base on what information you provid in the form and exhibit it in the page sorted by the teams chose in the the beggining"
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "nome": "age-calculator",
+    "nome": "Age-calculator",
     "image": "../../images/screenshot/frontend-mentor-age-calculator-jfaojw5xk-bpcampos.vercel.app_.png",
     "descricao": [
       "Static page of a age calculator with validation for empty or wrong informations on inputs. The biggest challenge with this project was to get the date right using the Date object"
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "nome": "aluraplay-requisicoes",
+    "nome": "Aluraplay-requisicoes",
     "image": "../../images/screenshot/aluraplay-requisicoes-main-lovat.vercel.app_.png",
     "descricao": [
       "Webpage made to acces videos fetched from an API e also an area to upload your own video .This project was made with the goal of learn how to fetch information from an API and also send information through the POST method"
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "nome": "nlw-habits",
+    "nome": "Nlw-habits",
     "image": "../../images/screenshot/bpcampos.github.io_nlw-habits_.png",
     "descricao": [
       "This project was developed to emulate a habit tracking program,keeping stored data of everyone that uses it through local storage, and adding a new column using a register button that takes the day and month in real time."
