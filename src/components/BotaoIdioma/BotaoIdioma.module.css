@@ -83,7 +83,7 @@ input[type="radio"]::before {
   input[type="radio"]::before {
     width: 37px;
     height: 29px;
-    bottom: -4px;
+    bottom: -5px;
     left: -9px;
   }
 
