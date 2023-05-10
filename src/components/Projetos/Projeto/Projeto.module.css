@@ -80,6 +80,10 @@
   font-size: 1.6rem;
 }
 
+.hide {
+  display: none;
+}
+
 @media (max-width: 400px) {
   .project_image {
     width: 96%;

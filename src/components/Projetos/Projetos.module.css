@@ -71,6 +71,10 @@
   display: flex;
 }
 
+.hide {
+  display: none;
+}
+
 @media (max-width: 400px) {
   .container {
     margin-top: 100px;

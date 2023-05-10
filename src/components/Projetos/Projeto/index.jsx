@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Projeto.module.css";
 import { Typewriter } from "react-simple-typewriter";
 
-export default function Projeto({ info }) {
+export default function Projeto({ info, checked }) {
   const text = <Typewriter words={info.descricao} typeSpeed={25} />;
 
   return (
@@ -13,7 +13,8 @@ export default function Projeto({ info }) {
       </div>
       <div className={styles.about_project}>
         <p>{text}</p>
-        <h2>tecnologias utilizadas</h2>
+        <h2 className={checked.Brasil ? "" : styles.hide}>tecnologias utilizadas</h2>
+        <h2 className={checked.USA ? "" : styles.hide}>Technologies used</h2>
         <div>
           <ul className={styles.technologies}>
             {info.tecnologias.map((tecnologia) => {
@@ -26,7 +27,8 @@ export default function Projeto({ info }) {
             </a>
             <a href={info.website} target="_blank">
               <img src="../../images/link-externo.png" alt="" />
-              <span>Acesse</span>
+              <span className={checked.Brasil ? "" : styles.hide}>Acesse</span>
+              <span className={checked.USA ? "" : styles.hide}>Website</span>
             </a>
           </div>
         </div>

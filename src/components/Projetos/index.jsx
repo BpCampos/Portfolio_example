@@ -5,7 +5,7 @@ import Card from "./Card";
 import cards from "~/json/cards.json";
 import Projeto from "./Projeto";
 
-export default function Projetos() {
+export default function Projetos({ checked }) {
   const [itens, setItens] = useState(cards);
   const [width, setWidth] = useState(0);
   const [projeto, setProjeto] = useState([]);
@@ -35,13 +35,22 @@ export default function Projetos() {
           drag="x"
           dragConstraints={{ right: width, left: -width }}>
           {itens.map((itens) => {
-            return <Card width={width} card={itens} styles={styles} showProjeto={showProjeto} key={itens.id} />;
+            return (
+              <Card
+                checked={checked}
+                width={width}
+                card={itens}
+                styles={styles}
+                showProjeto={showProjeto}
+                key={itens.id}
+              />
+            );
           })}
         </motion.section>
       </motion.div>
       <div className={show ? styles.show : styles.projectContainer}>
         {projeto.map((projeto) => {
-          return <Projeto key={projeto.id} info={projeto} />;
+          return <Projeto key={projeto.id} info={projeto} checked={checked} />;
         })}
       </div>
     </>

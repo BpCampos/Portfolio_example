@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Competencias.module.css";
 
-export default function Competências() {
+export default function Competências({ checked }) {
   return (
     <div>
-      <h1>Competências</h1>
+      <h1 className={checked.Brasil ? "" : styles.hide}>Competências</h1>
+      <h1 className={checked.USA ? "" : styles.hide}>Skills</h1>
       <div className={styles.container}>
         <section>
           <h2>Front End</h2>

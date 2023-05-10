@@ -26,10 +26,10 @@ function App() {
       <Header checked={checked} />
       <BotaoIdioma checked={checked} changeRadio={changeRadio} />
       <main>
-        <SobreMim />
-        <Competencias />
-        <Projetos />
-        <Contato />
+        <SobreMim checked={checked} />
+        <Competencias checked={checked} />
+        <Projetos checked={checked} />
+        <Contato checked={checked} />
       </main>
       <Seta />
     </div>
