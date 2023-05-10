@@ -76,14 +76,14 @@ input[type="radio"]::before {
 
 @media (max-width: 400px) {
   .container img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 
   input[type="radio"]::before {
-    width: 37px;
-    height: 30px;
-    bottom: -5px;
+    width: 47px;
+    height: 39px;
+    bottom: -4px;
     left: -9px;
   }
 
