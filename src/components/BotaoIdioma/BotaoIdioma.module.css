@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 33px;
+  right: 15px;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  margin: 0;
+}
+
+input[type="radio"]::after {
+  content: "";
+  padding: 18px 25px;
+  position: absolute;
+  bottom: 11px;
+  left: 14px;
+  border-radius: 6px;
+  transition: 300ms;
+}
+
+input[type="radio"]:checked::after {
+  box-shadow: 1px 1px 10px 10px rgb(11, 177, 11);
+}
+
+.container img {
+  width: 50px;
+  height: 50px;
+}
+
+.container img:hover {
+  cursor: pointer;
+}

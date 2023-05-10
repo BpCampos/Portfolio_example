@@ -32,6 +32,10 @@
   color: var(--hover-text-color);
 }
 
+.hide {
+  display: none;
+}
+
 @media (max-width: 400px) {
   .header {
     gap: 30px;

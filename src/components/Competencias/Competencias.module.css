@@ -24,6 +24,7 @@ h1 {
 
 .container section h2 {
   text-align: center;
+  font-size: 1.8rem;
 }
 
 .container section ul {
@@ -34,6 +35,7 @@ h1 {
   margin-left: 40px;
   line-height: 30px;
   font-size: 1.3rem;
+  font-weight: bold;
 }
 
 @media (max-width: 400px) {
