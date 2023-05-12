@@ -10,22 +10,54 @@ export default function Competências({ checked }) {
         <section>
           <h2>Front End</h2>
           <ul>
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>React</li>
-            <li>Bootstrap</li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+              Javascript
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+              Typescript
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+              HTML
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+              CSS
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+              React
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+              Bootstrap
+            </li>
           </ul>
         </section>
         <section>
           <h2>Back End</h2>
           <ul>
-            <li>Node</li>
-            <li>Express</li>
-            <li>MySQL</li>
-            <li>Sequelize</li>
-            <li>Postman</li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+              Node
+            </li>
+            <li>
+              <img src="https://img.icons8.com/office/60/express-js.png" alt="express-js" />
+              Express
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+              MySQL
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />
+              Sequelize
+            </li>
+            <li>
+              <img src="../../images/postman-icon.png" alt="" /> Postman
+            </li>
           </ul>
         </section>
       </div>
