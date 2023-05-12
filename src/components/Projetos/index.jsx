@@ -10,6 +10,7 @@ export default function Projetos({ checked }) {
   const [width, setWidth] = useState(0);
   const [projeto, setProjeto] = useState([]);
   const [show, setShow] = useState(true);
+  const [selectedCard, setSelectedCard] = useState([{}]);
 
   const projects = useRef();
 
@@ -21,6 +22,7 @@ export default function Projetos({ checked }) {
     let projetoAtivo = itens.filter((item) => item.id === card);
     if (projetoAtivo) {
       setShow(false);
+      setSelectedCard(projetoAtivo);
     }
     setProjeto(projetoAtivo);
   }
@@ -37,6 +39,7 @@ export default function Projetos({ checked }) {
           {itens.map((itens) => {
             return (
               <Card
+                selectedCard={selectedCard}
                 checked={checked}
                 width={width}
                 card={itens}

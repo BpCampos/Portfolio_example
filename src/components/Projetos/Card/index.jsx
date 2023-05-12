@@ -1,6 +1,6 @@
-export default function Cards({ card, styles, showProjeto, checked }) {
+export default function Cards({ card, styles, showProjeto, checked, selectedCard }) {
   return (
-    <div className={styles.card}>
+    <div className={selectedCard[0].id === card.id ? `${styles.card} ${styles.selectedCard}` : styles.card}>
       <h2>{card.nome}</h2>
       <img src={card.image} alt={card.nome} />
       <div className={styles.about}>

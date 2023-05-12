@@ -47,6 +47,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-right: 10px;
+  animation: float 2s ease-in-out infinite;
 }
 
 .container section ul li img {
@@ -55,6 +56,20 @@ h1 {
 
 .hide {
   display: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 400px) {
