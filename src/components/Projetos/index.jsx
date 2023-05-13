@@ -30,7 +30,12 @@ export default function Projetos({ checked }) {
   return (
     <>
       <motion.div ref={projects} className={styles.container}>
-        <h1 id="projetos">Projetos</h1>
+        <h1 className={checked.Brasil ? "" : styles.hide} id="projetos">
+          Projetos
+        </h1>
+        <h1 className={checked.USA ? "" : styles.hide} id="projetos">
+          Projects
+        </h1>
         <motion.section
           className={styles.projects}
           whileTap={{ cursor: "grabbing" }}
