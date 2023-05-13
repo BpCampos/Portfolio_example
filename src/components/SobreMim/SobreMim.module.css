@@ -116,6 +116,11 @@
     font-size: 1.05rem;
   }
 
+  .identidade div p:nth-child(2) {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+  }
+
   .aboutMe {
     font-size: 0.8rem;
     padding: 20px;
