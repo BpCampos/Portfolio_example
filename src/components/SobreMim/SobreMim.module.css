@@ -28,7 +28,7 @@
   border-radius: 50%;
   top: 5px;
   left: 5px;
-  background-color: rgb(6, 146, 6);
+  background-color: rgb(17, 85, 17);
 }
 
 .identidade img {
@@ -43,11 +43,13 @@
 .identidade p:nth-child(1) {
   font-size: 3rem;
   margin-bottom: 30px;
+  color: rgb(21, 194, 21);
 }
 
 .identidade p:nth-child(2) {
   font-size: 3rem;
   margin-bottom: 30px;
+  color: rgb(21, 194, 21);
 }
 
 .aboutMe {
@@ -56,7 +58,8 @@
   border: 1px solid var(--border-color);
   padding: 50px;
   margin: 0;
-  box-shadow: 7px 7px 30px rgb(11, 177, 11);
+  box-shadow: 8px 8px 30px rgb(11, 177, 11);
+  border-radius: 4px;
 }
 
 .container ul {
