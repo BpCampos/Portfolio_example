@@ -1,15 +1,15 @@
-import "./App.css";
-import React, { useState } from "react";
-import BotaoIdioma from "./components/BotaoIdioma";
-import Competencias from "./components/Competencias";
-import Contato from "./components/Contato";
-import Header from "./components/Header";
-import Projetos from "./components/Projetos";
-import Seta from "./components/Seta";
-import SobreMim from "./components/SobreMim";
+import './App.css'
+import { useState } from 'react'
+import BotaoIdioma from './components/BotaoIdioma'
+import Competencias from './components/Competencias'
+import Contato from './components/Contato'
+import Header from './components/Header'
+import Projetos from './components/Projetos'
+import Seta from './components/Seta'
+import SobreMim from './components/SobreMim'
 
 function App() {
-  const [checked, setChecked] = useState({ Brasil: true, USA: false });
+  const [checked, setChecked] = useState({ Brasil: true, USA: false })
 
   function changeRadio(e) {
     setChecked(() => {
@@ -17,8 +17,8 @@ function App() {
         Brasil: false,
         USA: false,
         [e.target.value]: true,
-      };
-    });
+      }
+    })
   }
 
   return (
@@ -33,7 +33,7 @@ function App() {
       </main>
       <Seta />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

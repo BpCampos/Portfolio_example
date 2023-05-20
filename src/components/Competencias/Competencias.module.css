@@ -9,7 +9,7 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 .container section {
@@ -46,12 +46,14 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 20px;
+  width: 60px;
   animation: float 2s ease-in-out infinite;
 }
 
 .container section ul li img {
   width: 60px;
+  height: 60px;
 }
 
 .hide {
