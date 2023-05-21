@@ -14,9 +14,7 @@
     "id": 2,
     "nome": "Profile",
     "image": "../../images/screenshot/profile-gilt-nu.vercel.app_.png",
-    "descricao": [
-      "This project recreate a blog website wit informations about me and different posts to navigate within and was developed with the main goal of learn how to use React Router and understand how to manage the application paths"
-    ],
+    "descricao": ["This project recreate a blog website wit informations about me and different posts to navigate within and was developed with the main goal of learn how to use React Router and understand how to manage the application paths"],
     "tecnologias": ["React", "Javascript", "HTML", "CSS", "Vite", "React Router"],
     "github": "https://github.com/BpCampos/profile",
     "website": "https://profile-gilt-nu.vercel.app/"
@@ -47,9 +45,7 @@
     "id": 5,
     "nome": "Interactive-card-details",
     "image": "../../images/screenshot/frontend-mentor-interactive-card-details-6uvs1shg1-bpcampos.vercel.app_.png",
-    "descricao": [
-      "This project is a static page with a credit card image that is filled while the form is answered. The main goal with this project was to learn CSS tricks to write on the card image while creating validations for the form"
-    ],
+    "descricao": ["This project is a static page with a credit card image that is filled while the form is answered. The main goal with this project was to learn CSS tricks to write on the card image while creating validations for the form"],
     "tecnologias": ["Javascript", "HTML", "CSS"],
     "github": "https://github.com/BpCampos/Frontend-Mentor-Interactive-card-details",
     "website": "https://frontend-mentor-interactive-card-details-6uvs1shg1-bpcampos.vercel.app/"
@@ -58,9 +54,7 @@
     "id": 6,
     "nome": "Age-calculator",
     "image": "../../images/screenshot/frontend-mentor-age-calculator-jfaojw5xk-bpcampos.vercel.app_.png",
-    "descricao": [
-      "Static page of a age calculator with validation for empty or wrong informations on inputs. The biggest challenge with this project was to get the date right using the Date object"
-    ],
+    "descricao": ["Static page of a age calculator with validation for empty or wrong informations on inputs. The biggest challenge with this project was to get the date right using the Date object"],
     "tecnologias": ["Javascript", "HTML", "CSS"],
     "github": "https://github.com/BpCampos/frontend-mentor-age-calculator",
     "website": "https://frontend-mentor-age-calculator.vercel.app/"
@@ -69,20 +63,16 @@
     "id": 7,
     "nome": "Bitspace",
     "image": "../../images/screenshot/localhost_4000_.png",
-    "descricao": [
-      "This project is a replica of an Ecommerce website as the final project of the coding bootcamp from Digital House that was created using JavaScript,Node, Express, EJS, CSS, MySQL for the database and Sequelize as the ORM."
-    ],
+    "descricao": ["This project is a replica of an Ecommerce website as the final project of the coding bootcamp from Digital House that was created using JavaScript,Node, Express, EJS, CSS, MySQL for the database and Sequelize as the ORM."],
     "tecnologias": ["Javascript", "EJS", "CSS", "Node", "Express", "MySQL", "Sequelize"],
     "github": "https://github.com/BpCampos/Bitspace",
-    "website": "https://github.com/BpCampos/Bitspace"
+    "website": ""
   },
   {
     "id": 8,
     "nome": "Aluraplay-requisicoes",
     "image": "../../images/screenshot/aluraplay-requisicoes-main-lovat.vercel.app_.png",
-    "descricao": [
-      "Webpage made to acces videos fetched from an API e also an area to upload your own video .This project was made with the goal of learn how to fetch information from an API and also send information through the POST method"
-    ],
+    "descricao": ["Webpage made to acces videos fetched from an API e also an area to upload your own video .This project was made with the goal of learn how to fetch information from an API and also send information through the POST method"],
     "tecnologias": ["Javascript", "Node", "HTML", "CSS", "Fetch API"],
     "github": "https://github.com/BpCampos/aluraplay-requisicoes-main",
     "website": "https://aluraplay-requisicoes-main-lovat.vercel.app/"
@@ -91,9 +81,7 @@
     "id": 9,
     "nome": "Nlw-habits",
     "image": "../../images/screenshot/bpcampos.github.io_nlw-habits_.png",
-    "descricao": [
-      "This project was developed to emulate a habit tracking program,keeping stored data of everyone that uses it through local storage, and adding a new column using a register button that takes the day and month in real time."
-    ],
+    "descricao": ["This project was developed to emulate a habit tracking program,keeping stored data of everyone that uses it through local storage, and adding a new column using a register button that takes the day and month in real time."],
     "tecnologias": ["Javascript", "HTML", "CSS"],
     "github": "https://github.com/BpCampos/nlw-habits",
     "website": "https://bpcampos.github.io/nlw-habits/"
